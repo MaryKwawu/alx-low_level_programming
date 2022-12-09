@@ -14,6 +14,6 @@ for (; num <= 10; num++)
 printf("%d", num);
 num++;
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
