@@ -8,15 +8,10 @@
 */
 int main(void)
 {
-char c;
-int i;
-long li;
-long long li;
-float f;
-printf("Size of a char: %lu bytes(s)\n", sizeof(c));
-printf("Size of a char: %lu bytes(s)\n", sizeof(i));
-printf("Size of a char: %lu bytes(s)\n", sizeof(li));
-printf("Size of a char: %lu bytes(s)\n", sizeof(llli));
-printf("Size of a char: %lu bytes(s)\n", sizeof(f));
+printf("Size of a char: %ld bytes(s)\n", sizeof(char));
+printf("Size of a int: %ld bytes(s)\n", sizeof(int));
+printf("Size of a long int: %ld bytes(s)\n", sizeof(long int));
+printf("Size of a long long int: %ld bytes(s)\n", sizeof(long long int));
+printf("Size of a float: %ld bytes(s)\n", sizeof(float));
 return (0);
 }
