@@ -1,1 +1,3 @@
-0x00. C - Hello, World
+0x00. C - Hello, 
+0.World Write a program that prints _putchar, followed by a new line.
+The program should return 0
