@@ -6,6 +6,12 @@
 */
 int main(void)
 {
-print_pucharmsg();
+char *sh = "_putchar";
+while (*sh)
+{
+_putchar(*sh);
+sh++;
+}
+putchar('\n');
 return (0);
 }
