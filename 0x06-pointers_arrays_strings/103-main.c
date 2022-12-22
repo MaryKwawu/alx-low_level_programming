@@ -20,7 +20,7 @@ printf("Error\n");
 }
 else
 {
-printf("%s + %s = %s\n", n, m, res)
+printf("%s + %s = %s\n", n, m, res);
 }
 n="1234567890";
 m = "1";
